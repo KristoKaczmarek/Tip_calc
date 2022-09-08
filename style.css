@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color:rgb(90, 84, 96);
+    color:beige;
+}
+.wrapper {
+    width: 600px;
+    background-color: rgba(10, 3, 30, 0.70);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.top p {
+    margin-top: 10px;
+}
+.bottom {
+    padding: 40px 20px;
+    background-color: rgba(90, 17, 44, 0.8);
+}
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+input,
+select {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(229, 225, 232);
+}
+.count {
+    display: block;
+    width: 60%;
+    padding: 20px 10px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(10, 3, 30, 0.70);
+    color: beige;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: color backgroundcolor .5s;
+}
+.count:hover {
+    background-color: beige;
+    color: rgba(10, 3, 30, 0.9);
+}
+.error {
+    font-size: 20px;
+    color: tomato;
+    text-align: center;
+    display: none;
+}
+.show {
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+.money {
+    font-weight: 700;
+}
